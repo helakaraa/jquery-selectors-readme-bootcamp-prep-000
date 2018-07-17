@@ -3,13 +3,13 @@ function paragraphSelector(){
   return $('p');
 }
 function lastImageSelector(){
-  return $('img:last');
+  return $('img');
 }
 function ninjaBabySelector(){
- return $("img[alt='ninja baby']");
+ return $("#ninja baby");
 }
 function divSelector(){
-  return $('div #pics');
+  return $('.pics');
 }
 function firstListItem(){
   return $('ul:first-child #pic-list');
