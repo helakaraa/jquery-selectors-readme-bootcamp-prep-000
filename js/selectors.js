@@ -9,5 +9,5 @@ function ninjaBabySelector(){
  return $("img[alt='ninja baby']");
 }
 function divSelector(){
-  return $('div:last')
+  return $('div pics')
 }
