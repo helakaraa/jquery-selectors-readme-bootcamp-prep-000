@@ -6,11 +6,11 @@ function lastImageSelector(){
   return $('img:last');
 }
 function ninjaBabySelector(){
-  return $("#ninja baby");
+ return $("img[alt='ninja baby']");
 }
 function divSelector(){
   return $('.pics');
 }
 function firstListItem(){
-  return $('ul li');
+  return $('ul:first-child #pic-list');
 }
