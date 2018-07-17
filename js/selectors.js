@@ -9,8 +9,8 @@ function ninjaBabySelector(){
  return $("img[alt='ninja baby']");
 }
 function divSelector(){
-  return $('div pics');
+  return $('div #pics');
 }
 function firstListItem(){
-  return $('ul:first-child');
+  return $('ul:first-child #pic-list');
 }
